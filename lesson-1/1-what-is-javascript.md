@@ -1,4 +1,4 @@
-# What is Javascript?
+# What is JavaScript?
 
 - Introduced in September of 1995.
 - Developed by Brandan Eich who worked at Netscape.
