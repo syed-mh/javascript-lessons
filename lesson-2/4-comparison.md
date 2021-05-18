@@ -10,3 +10,4 @@
 | <    | Less than                | Is smaller in value          | 'a' > 'b', 1 > 2   |
 | >=   | Greater than or equal to | Is smaller in value or equal | 'a' >= 'a', 1 >= 1 |
 | <=   | Less than or equal to    | Is smaller in value or equal | 'a' <= 'b', 2 <= 1 |
+
