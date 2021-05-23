@@ -1,32 +1,28 @@
-# Loops
-
-- For loops
-- While loops
+# For Loops
 
 ```js
 /** For Loop */
-const numbers = [1,2,3,4,5,6]
+const numbers = [1, 2, 3, 4, 5, 6];
 let total = 0;
 
-for(let index = 0; index < numbers.length; index++) {
-  total += numbers[index]
+for (let index = 0; index < numbers.length; index++) {
+  total += numbers[index];
 }
 
-console.log(total) // 21
+console.log(total); // 21
 
-/** While Loop */
-const numbers = [1,2,3,4,5,6]
-let index = 0;
+/** Another example */
+const numbers = [1, 2, 3, 4, 5, 6];
 let total = 0;
 
-
-while(index < numbers.length)
-  total += numbers[i]
-  index++;
+for (let index = 0; index < numbers.length; index++) {
+  if (!(numbers[index] % 2)) total += numbers[index];
 }
 
-console.log(total) // 21
+console.log(total);
 ```
+
+# Break & Continue Statements
 
 - Break
 - Continue
