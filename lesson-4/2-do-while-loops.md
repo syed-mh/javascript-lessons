@@ -8,9 +8,7 @@ let total = 0;
 
 do {
   console.log(numbers[index]);
-} while (index < numbers.length && !(numbers[index] % 2));
-{
   total += numbers[index];
   index++;
-}
+} while (index < numbers.length && !(numbers[index] % 2));
 ```
